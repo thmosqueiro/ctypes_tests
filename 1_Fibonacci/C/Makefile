@@ -1,7 +1,7 @@
-all: compile clean
+all: compile
 
 compile:
-	gcc Fibonacci.c -o fibonacci
+	gcc Fibonacci.c -o fibonacci -O3
 
 clean:
 	rm *~
