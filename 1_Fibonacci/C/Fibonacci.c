@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int fib(int i) {
-  if (i<=1)
+int fib(int x) {
+  if (x <= 1)
     return 1;
   else
-    return fib(i-1)+fib(i-2);
+    return fib(x-1) + fib(x-2);
 }
 
 int main(void) {

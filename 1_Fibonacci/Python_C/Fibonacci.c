@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int fib(int i)
+int fib(int x)
 {
-    if (i<=1)
+    if (x <= 1)
         return 1;
     else
-        return fib(i-1)+fib(i-2);
+        return fib(x-1) + fib(x-2);
 }

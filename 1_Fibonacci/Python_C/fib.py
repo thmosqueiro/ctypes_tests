@@ -1,4 +1,3 @@
-import numpy as np
 import ctypes
 
 lib = ctypes.cdll['./FibonacciLib.so']
