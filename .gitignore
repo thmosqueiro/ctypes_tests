@@ -33,3 +33,7 @@
 
 # Debug files
 *.dSYM/
+
+
+# cffi in-line cache
+*/__pycache__
